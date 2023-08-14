@@ -1,0 +1,67 @@
+.hero-container{
+    display: flex; 
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+
+}
+
+#light .name{
+  background-color: "black";
+}
+#dark .name{
+  background-color: "#3730A3";
+} 
+.name{
+  padding: 1rem;
+}
+  .hero-buttons{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    cursor: pointer;
+  }
+  .paragraf{
+    padding: 1rem;
+  }
+
+
+ 
+  .hire-button:hover{
+    background-color: white;
+    color: white;
+    background-color: #3730A3;
+    padding: 0.3rem;
+  }
+
+  .button{
+    display: flex;
+    border:2px solid #3730A3;
+    height: fit-content;
+    
+    border-radius: 16px;
+    gap:8px;
+    align-items: center;
+    fill: none;
+  }
+  .logo-button:hover{
+    background-color: #3730A3;
+    color: white;
+    
+  }
+  
+.avatar{
+  border-radius: 18px;
+  width: 20vw;
+  height: 20vw;
+  
+}
+
+.logo{
+  width: 20px;
+  height:20px;
+  padding: 1rem;
+  align-items: center;
+}

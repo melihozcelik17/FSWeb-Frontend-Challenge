@@ -1,0 +1,29 @@
+.profile-container{
+    display: flex;
+    gap: 64px;
+    width: auto;
+    margin: 0 3rem;
+}
+
+.profile-content{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.profile-label{
+    width: 200px;
+}
+.profile-value{
+    width: 200px;
+}
+
+.profile-about{
+    width: 40vw;
+}

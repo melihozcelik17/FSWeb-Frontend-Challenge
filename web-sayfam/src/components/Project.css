@@ -1,0 +1,38 @@
+img{
+    width: 15vw;
+    height: 22vh;
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 15px;
+}
+.project-tags{
+    display: flex;
+    width: min-content;
+    justify-content:center;
+    margin: 1px;
+    padding: 4px;
+    border-radius: 8%;
+    border: 1px solid;
+
+}
+h2{
+    display: flex;
+    color: #3730A3;
+    font-size: 30px;
+    
+   
+
+}
+.tags{
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
